@@ -1,0 +1,125 @@
+@import "comstyle.scss";
+
+.container {
+    .form-body {
+        margin: 5px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        @include opanim;
+        overflow: auto;
+
+
+        h1 {
+            margin: 10px 0;
+            text-transform: capitalize;
+            text-align: center;
+            width: 100%;
+        }
+
+        aside {
+            height: 100%;
+            width: 100%;
+            overflow: auto;
+        }
+
+        table {
+            text-align: center;
+            width: 90%;
+            font-size: 20px;
+            font-weight: 900;
+            text-transform: capitalize;
+            border: 1px solid rgba(255, 255, 255, 0.527);
+            border-radius: 5px;
+            border-collapse: collapse;
+
+            th {
+                background-color: $primary-bg;
+                color: white;
+                border: 1px solid rgb(231, 231, 231);
+                padding: 7px 10px;
+            }
+
+            td {
+                border: 1px solid rgb(214, 214, 214);
+                padding: 5px;
+                font-size: 16px;
+                min-width: 100px;
+                max-width: 200px;
+                overflow: auto;
+            }
+        }
+
+        form {
+            padding: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.486);
+            border-radius: 5px;
+            margin: 5px;
+
+            menu {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    margin: 10px;
+
+                    label {
+                        font-size: 16px;
+                        text-transform: capitalize;
+                        margin: 7px 0;
+                    }
+
+                    input {
+                        border: none;
+                        outline: none;
+                        font-size: 20px;
+                        font-weight: 700;
+                        padding: 8px;
+                        border-radius: 4px;
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.384);
+                        width: 260px;
+                    }
+                }
+            }
+
+            footer {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-bottom: 10px;
+
+                button {
+                    border: none;
+                    outline: none;
+                    padding: 5px 10px;
+                    width: 80px;
+                    font-size: 16px;
+                    border-radius: 5px;
+                    display: block;
+                    margin: 20px 20px 0 20px;
+                    cursor: pointer;
+                    background-color: $primary-bg;
+                    color: $primary-clr;
+                    font-weight: 900;
+                    text-transform: capitalize;
+
+                    &:hover {
+                        opacity: 0.6;
+                    }
+                }
+
+                button:nth-child(2) {
+                    background-color: tomato;
+                }
+            }
+
+
+        }
+    }
+}

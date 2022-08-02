@@ -1,0 +1,13 @@
+@mixin opanim {
+    opacity: 0;
+    animation: cl 1s ease-in forwards;
+  }
+  
+  @mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+$primary-bg:rgb(0, 110, 255);
+$sec-bg:#333;
+$primary-clr:rgb(255, 255, 255)
