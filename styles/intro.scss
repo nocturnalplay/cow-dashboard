@@ -33,7 +33,7 @@
                 color: $primary-clr;
                 @include center;
                 flex-direction: column;
-                margin: 20px 0 0 0;
+                margin: -100px 0 0 0;
 
                 h2 {
                     text-transform: capitalize;
@@ -162,6 +162,9 @@
                 align-items: center;
                 border-bottom-left-radius: 0;
                 border-bottom-right-radius: 0;
+                header{
+                    margin: -50px 0 0 0;
+                }
             }
 
             h1 {

@@ -15,7 +15,8 @@ export default function Home() {
       <div className='signin-left'></div>
       <div className='signin-right'>
         <div className='signin-intro'>
-          <Image src="/i1.png" alt="logo" width={100} height={100} />
+          {/* <Image src="/i1.png" alt="logo" width={100} height={100} /> */}
+          <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_ffqpri3j.json"  background="transparent"  speed="1"  style={{width: "300px", height: "300px"}}  loop  autoplay></lottie-player>
           <header>
             <h2>cow society</h2>
             <p>here is the place to maintain all the society details and also farmer details</p>
