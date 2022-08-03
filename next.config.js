@@ -3,8 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   env: {
-    // url:"https://cow-society.netlify.app/"
-    url: "http://localhost:3000"
+     url:"https://cow-society.netlify.app/"
+    //url: "http://localhost:3000"
   }
 }
 
