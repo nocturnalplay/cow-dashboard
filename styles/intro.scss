@@ -181,9 +181,7 @@
 .signup-body {
     width: 100%;
     display: flex;
-    padding: 20px 0 40px 0;
-    background-image: linear-gradient(200deg, $primary-bg, rgb(153, 0, 255));
-    color: white;
+    color: rgb(0, 0, 0);
 
     form {
         width: 100%;
@@ -192,6 +190,9 @@
             padding: 10px;
             text-transform: capitalize;
             text-align: center;
+            background-color: $sec-bg;
+            width: 100%;
+            color: $primary-clr;
         }
 
         display: flex;
@@ -200,18 +201,15 @@
         align-items: center;
 
         .signup-layer {
-            padding: 10px;
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
+            justify-content: space-between;
             max-width: 700px;
 
             div {
                 display: flex;
                 flex-direction: column;
-                margin: 10px;
                 padding: 10px;
-                flex: 1 50%;
 
                 label {
                     font-size: 16px;
@@ -261,8 +259,6 @@
 
                 &:hover {
                     background-color: rgba(2, 11, 22, 0.671);
-                    box-shadow: 0 0 10px rgba(2, 11, 22, 0.904), 0 0 10px rgba(2, 11, 22, 0.904);
-                    ;
                 }
             }
 
@@ -270,8 +266,7 @@
                 background-color: rgb(248, 87, 59);
 
                 &:hover {
-                    background-color: rgba(248, 87, 59, 0.815);
-                    box-shadow: 0 0 10px rgba(248, 87, 59), 0 0 10px rgba(248, 87, 59);
+                    background-color: rgba(248, 87, 59, 0.651);
                 }
             }
         }

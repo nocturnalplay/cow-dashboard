@@ -14,6 +14,7 @@ export default function SocityDetails() {
                 <Menu active="2" />
                 <div className="form-body">
                     <h1>Socierty details</h1>
+                    <h4>date:</h4>
                     <aside>
                         <table>
                             <thead>

@@ -18,11 +18,11 @@ export default function Signup() {
                         <label htmlFor="location">location</label>
                         <input type="text" id="location" />
                     </div>
-                    <div>
+                    <div style={{ flex: "100%" }}>
                         <label htmlFor="address1">address 1</label>
                         <textarea type="text" id="address1" rows={5} />
                     </div>
-                    <div>
+                    <div style={{ flex: "100%" }}>
                         <label htmlFor="address2">address 2</label>
                         <textarea type="text" id="address2" rows={5} />
                     </div>
