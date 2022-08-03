@@ -34,17 +34,6 @@ input[type=number] {
   transition: 0.5s;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-
-  body {
-    color: white;
-    background: black;
-  }
-}
-
 .body {
   width: 100%;
 }
